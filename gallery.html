@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photo Gallery | Pawna Lake Camping</title>
+  <meta name="description" content="79 photos of Pawna Lake Camping: tents, triangle tents, cottages, BBQ, games and lit-up evenings beside the lake.">
+  <meta name="author" content="Rahul Adkar">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0e2a20">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0YMN4W8BE6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-0YMN4W8BE6');
+  </script>
+</head>
+<body>
+
+<header class="site-header solid" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Pawna Lake Camping home">
+      <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><path d="M16 3 3 27h26L16 3Zm0 9 6.5 12h-13L16 12Z" fill="currentColor"/></svg>
+      <span>Pawna Lake<br><em>Camping</em></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav id="nav" class="nav">
+      <a href="index.html#packages">Packages</a>
+      <a href="index.html#stay">Your stay</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#schedule">Schedule</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#contact">Contact</a>
+      <a class="btn btn-amber nav-cta" href="index.html#book">Get a quote</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Photo gallery</h1>
+      <p>79 photos of our tents, cottages, food and evenings by the lake. Tap a photo to see it full screen.</p>
+    </div>
+  </section>
+
+  <section class="gallery-page">
+    <div class="chips-bar">
+      <div class="wrap">
+        <div class="chips" role="group" aria-label="Filter photos">
+        <button class="chip" type="button" data-cat="all" aria-pressed="true">All<small>79</small></button>
+        <button class="chip" type="button" data-cat="stays" aria-pressed="false">Tents & cottages<small>21</small></button>
+        <button class="chip" type="button" data-cat="night" aria-pressed="false">Night lights<small>17</small></button>
+        <button class="chip" type="button" data-cat="fun" aria-pressed="false">Games & evenings<small>17</small></button>
+        <button class="chip" type="button" data-cat="food" aria-pressed="false">Food & BBQ<small>12</small></button>
+        <button class="chip" type="button" data-cat="inside" aria-pressed="false">Inside the stay<small>7</small></button>
+        <button class="chip" type="button" data-cat="lake" aria-pressed="false">Lake views<small>5</small></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <p class="shown">Showing <span id="shownCount">79</span> photos</p>
+      <div class="g-grid" id="galleryGrid">
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p001.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p001.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p005.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p005.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p009.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p009.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p053.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p053.webp" width="480" height="640" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="inside" data-label="Inside the stay" data-full="images/gallery/full/p002.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p002.webp" width="640" height="480" alt="Inside a tent or cottage at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="lake" data-label="Lake views" data-full="images/gallery/full/p007.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p007.webp" width="640" height="480" alt="View of Pawna Lake and the hills" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p003.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p003.webp" width="640" height="289" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p016.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p016.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p054.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p054.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p062.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p062.webp" width="480" height="640" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="inside" data-label="Inside the stay" data-full="images/gallery/full/p006.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p006.webp" width="426" height="640" alt="Inside a tent or cottage at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="lake" data-label="Lake views" data-full="images/gallery/full/p020.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p020.webp" width="640" height="480" alt="View of Pawna Lake and the hills" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p004.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p004.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p047.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p047.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p056.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p056.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p063.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p063.webp" width="480" height="640" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="inside" data-label="Inside the stay" data-full="images/gallery/full/p010.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p010.webp" width="640" height="426" alt="Inside a tent or cottage at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="lake" data-label="Lake views" data-full="images/gallery/full/p033.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p033.webp" width="640" height="480" alt="View of Pawna Lake and the hills" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p008.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p008.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p048.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p048.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p057.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p057.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p065.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p065.webp" width="640" height="480" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="inside" data-label="Inside the stay" data-full="images/gallery/full/p030.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p030.webp" width="512" height="640" alt="Inside a tent or cottage at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="lake" data-label="Lake views" data-full="images/gallery/full/p036.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p036.webp" width="640" height="288" alt="View of Pawna Lake and the hills" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p014.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p014.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p077.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p077.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p058.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p058.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p066.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p066.webp" width="480" height="640" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="inside" data-label="Inside the stay" data-full="images/gallery/full/p038.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p038.webp" width="512" height="640" alt="Inside a tent or cottage at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="lake" data-label="Lake views" data-full="images/gallery/full/p101.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p101.webp" width="640" height="480" alt="View of Pawna Lake and the hills" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p017.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p017.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p085.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p085.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p059.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p059.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p067.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p067.webp" width="480" height="640" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="inside" data-label="Inside the stay" data-full="images/gallery/full/p082.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p082.webp" width="480" height="640" alt="Inside a tent or cottage at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p019.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p019.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p086.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p086.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p060.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p060.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p068.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p068.webp" width="480" height="640" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="inside" data-label="Inside the stay" data-full="images/gallery/full/p083.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p083.webp" width="640" height="480" alt="Inside a tent or cottage at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p023.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p023.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p087.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p087.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p061.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p061.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p069.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p069.webp" width="640" height="480" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p025.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p025.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p088.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p088.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p064.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p064.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p070.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p070.webp" width="480" height="640" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p027.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p027.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p089.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p089.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p073.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p073.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p071.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p071.webp" width="480" height="640" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p028.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p028.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p090.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p090.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p074.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p074.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p072.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p072.webp" width="480" height="640" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p032.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p032.webp" width="480" height="640" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p091.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p091.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p076.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p076.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="food" data-label="Food & BBQ" data-full="images/gallery/full/p075.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p075.webp" width="640" height="480" alt="Barbecue and food at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p049.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p049.webp" width="480" height="640" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p093.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p093.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p078.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p078.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p050.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p050.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p095.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p095.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p079.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p079.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p051.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p051.webp" width="480" height="640" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p096.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p096.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p080.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p080.webp" width="480" height="640" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p052.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p052.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p097.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p097.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p081.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p081.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p055.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p055.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="night" data-label="Night lights" data-full="images/gallery/full/p100.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p100.webp" width="640" height="480" alt="Pawna Lake campsite lit up at night" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="fun" data-label="Games & evenings" data-full="images/gallery/full/p094.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p094.webp" width="640" height="480" alt="Guests enjoying games and evenings at the campsite" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p092.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p092.webp" width="480" height="640" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p098.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p098.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p099.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p099.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      <figure class="g-item" data-cat="stays" data-label="Tents & cottages" data-full="images/gallery/full/p102.webp"><button type="button" aria-label="Open photo"><img src="images/gallery/thumb/p102.webp" width="640" height="480" alt="Tents and cottages at Pawna Lake Camping" loading="lazy" decoding="async"></button></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap">
+      <h2>Like what you see? Book your night by the lake.</h2>
+      <a class="btn btn-amber btn-lg" href="index.html#book">Get a quote</a>
+      <a class="btn btn-ghost btn-lg" data-call href="tel:+919545873420">Call 95458 73420</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <p><strong>Pawna Lake Camping</strong><br>Tent stays beside Pawna Lake, near Lonavala and Pune.</p>
+    <div class="foot-right"><p class="fine"><a href="gallery.html">Gallery</a> &nbsp; pawna.in</p><p class="credit">Designed and built by <strong>Rahul Adkar</strong></p></div>
+  </div>
+</footer>
+
+<div class="mobile-bar">
+  <a data-call href="tel:+919545873420">Call</a>
+  <a class="wa" data-wa href="index.html#book">WhatsApp</a>
+</div>
+
+<dialog id="lightbox" aria-label="Photo viewer">
+  <button type="button" class="lb-close" aria-label="Close">×</button>
+  <button type="button" class="lb-prev" aria-label="Previous photo">‹</button>
+  <img id="lbImg" alt="">
+  <button type="button" class="lb-next" aria-label="Next photo">›</button>
+  <p class="lb-cap" id="lbCap"></p>
+</dialog>
+
+<script src="js/main.js"></script>
+<script src="js/gallery.js"></script>
+</body>
+</html>
