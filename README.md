@@ -1,2 +1,2 @@
-https://rahuladkar.github.io/PawnaCampingSite/
+https://rahuladkar.github.io/PawnaCampSite/
 # PawnaCampingSite
